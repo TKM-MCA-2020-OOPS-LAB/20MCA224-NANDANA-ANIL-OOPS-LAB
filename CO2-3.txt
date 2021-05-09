@@ -1,0 +1,26 @@
+public class string {
+		public static void main(String[] args) {
+		String string1 = "Hello";
+		String string2 = "World";
+		String result = string1+" "+string2;
+		System.out.print(result);
+		System.out.println("\nThe length of the string: "+ result.length());
+		String string3 = string1.toLowerCase();
+		String string4 = string2.toLowerCase();
+		int i = string3.compareTo(string4);//0 for both are equal
+		if(i==0){
+		System.out.println("\nBoth strings are equal");
+		}else{
+		System.out.print("\nStrings are not equal.");
+		String str1 = "tkmcemca kollam";
+		System.out.println("\nActual String: "+str1);
+		System.out.print("String reverse: ");
+		for(int j = str1.length()-1; j>=0; j--){
+		System.out.print(str1.charAt(j));
+		}
+		String str_Sample = "RockStar";
+		System.out.println("\nNext String: "+str_Sample);
+		System.out.println("\nCharacter at position 5: " + str_Sample.charAt(5));
+		}
+		}
+}
